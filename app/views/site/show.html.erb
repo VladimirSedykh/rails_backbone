@@ -1,0 +1,24 @@
+
+<div class="left">
+  <img id="scream" src="assets/category-btn-buy.png" style="display:none" alt=""/>
+  <!--<canvas id="image" width="150" height="273"></canvas>-->
+</div>
+<div class="right" id="right">
+</div>
+<!--<canvas id="custom" width="500" height="500"></canvas>-->
+
+
+<script type="text/html" id='newsTemplate'>
+
+  <ul>
+    <%% $.each(obj, function(k, v) { %>
+    <li>
+      <h2><%%= v.attributes.title %></h2>
+      <p><%%= v.attributes.text %></p>
+    </li>
+    <%% }) %>
+  </ul>
+  <button id="btn">Change</button>
+
+</script>
+

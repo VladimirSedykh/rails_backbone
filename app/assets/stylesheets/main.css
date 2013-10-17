@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+}
+
+#custom {
+  background: ghostwhite;
+}
+
+a {
+  color: whitesmoke;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial";
+  height: 100%;
+}
+body .wrapper {
+  min-height: 100%;
+}
+body .wrapper .header {
+  background: slategray;
+  color: white;
+}
+body .wrapper .header .inner {
+  width: 960px;
+  margin: 0 auto;
+}
+body .wrapper .header .inner .menu {
+  width: 100%;
+  height: 100px;
+}
+body .wrapper .header .inner .menu ul {
+  margin: 0;
+}
+body .wrapper .header .inner .menu ul li {
+  list-style: none;
+  float: left;
+  margin: 20px;
+}
+body .wrapper .content .inner {
+  width: 960px;
+  margin: 0 auto;
+}
+body .wrapper .content .inner .right {
+  width: 70%;
+  float: left;
+}
+body .wrapper .content .inner .left {
+  width: 30%;
+  float: left;
+  background: whitesmoke;
+}
+body .footer {
+  position: relative;
+  top: -100px;
+  width: 100%;
+  background: slategray;
+  color: white;
+  height: 100px;
+}
+body .footer .inner {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
