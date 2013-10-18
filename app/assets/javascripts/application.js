@@ -14,9 +14,10 @@
 //= require underscore
 //= require backbone
 
-
-//= require site.js
+//= require app
 //= require_tree ./site/models/
 //= require_tree ./site/views/
 //= require_tree ./site/collections/
 //= require_tree ./site/routes/
+//= require init_app
+

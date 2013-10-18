@@ -4,21 +4,28 @@
   <!--<canvas id="image" width="150" height="273"></canvas>-->
 </div>
 <div class="right" id="right">
+
+  <ul id="rss-feed"></ul>
+
 </div>
 <!--<canvas id="custom" width="500" height="500"></canvas>-->
 
 
-<script type="text/html" id='newsTemplate'>
+<script type="text/html" id='rssTemplate'>
 
-  <ul>
-    <%% $.each(obj, function(k, v) { %>
-    <li>
-      <h2><%%= v.attributes.title %></h2>
-      <p><%%= v.attributes.text %></p>
-    </li>
-    <%% }) %>
-  </ul>
-  <button id="btn">Change</button>
+  <li class="rss" id="<%%= rssData.id %>">
+    <%% if(rssData.content) { %>
+    <div class="img">
+      <img src="<%%= rssData.content.url %>" height="5" width="<%%= rssData.content.width %>"/>
+    </div>
+    <%% } %>
+    <a class="title" href="/#/rss/<%%= rssData.id %>"><%%= rssData.title %></a>
+    <div class="description"><%%= rssData.description %></div>
+    <div class="pub-date"><%%= rssData.pubDate %></div>
+    <%% if(rssData.source) { %>
+      <div class="source"><%%= rssData.source %></div>
+    <%% } %>
+  </li>
 
 </script>
 

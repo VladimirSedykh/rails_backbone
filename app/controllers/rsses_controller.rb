@@ -1,9 +1,9 @@
 class RssesController < ApplicationController
 
   def show
-    @data = Net::HTTP.get('news.yahoo.com', '/rss/')
+    @data = Hash.from_xml(Net::HTTP.get('news.yahoo.com', '/rss/')).to_json
 
-    render :xml => @data
+    render :json => @data
   end
 
 end
