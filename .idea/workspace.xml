@@ -16,7 +16,7 @@
     <file path="/base_model.js" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1381748018426" ignored="false" />
     <file path="/base_view.js" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1381748315439" ignored="false" />
     <file path="$PROJECT_DIR$/../../pershop/app/assets/javascripts/menu/submenu-actions.coffee" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1381737847116" ignored="false" />
-    <file path="/show.html.erb" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382098514231" ignored="false" />
+    <file path="/show.html.erb" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382099535958" ignored="false" />
     <file path="/dummy.xml" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382096192099" ignored="false" />
     <file path="/main.js" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382004764868" ignored="false" />
     <file path="/main.css" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1381749912985" ignored="false" />
@@ -33,7 +33,7 @@
     <file path="$PROJECT_DIR$/../../nowshop/app/assets/templates/shop/filters/filters.mustache" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382011733778" ignored="false" />
     <file path="$PROJECT_DIR$/../../nowshop/app/assets/stylesheets/shop/core/main.css.scss" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382080588845" ignored="false" />
     <file path="/main_router.coffee" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382096856883" ignored="false" />
-    <file path="$PROJECT_DIR$/../../nowshop/app/assets/javascripts/shop/routers/main_router.coffee" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382080588845" ignored="false" />
+    <file path="$PROJECT_DIR$/../../nowshop/app/assets/javascripts/shop/routers/main_router.coffee" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382100061746" ignored="false" />
     <file path="/init_app.coffee" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382079760063" ignored="false" />
     <file path="/main_router.js" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382008947559" ignored="false" />
     <file path="/rss_collection.coffee" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382096814494" ignored="false" />
@@ -52,21 +52,23 @@
     <file path="/rss_model.coffee" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382018574024" ignored="false" />
     <file path="/rss_view.coffee" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382098395236" ignored="false" />
     <file path="$PROJECT_DIR$/../../nowshop/app/views/api/payments/ok.html.erb" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382080588845" ignored="false" />
-    <file path="$PROJECT_DIR$/../../nowshop/Gemfile" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382080588845" ignored="false" />
+    <file path="$PROJECT_DIR$/../../nowshop/Gemfile" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382100061746" ignored="false" />
     <file path="$PROJECT_DIR$/../../nowshop/lib/payment/pensio.rb" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382080588845" ignored="false" />
     <file path="$PROJECT_DIR$/../../nowshop/lib/order_api/v1/webhook_performer.rb" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382080588845" ignored="false" />
     <file path="$PROJECT_DIR$/../../nowshop/app/controllers/shop/iframes_controller.rb" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382080588845" ignored="false" />
     <file path="$PROJECT_DIR$/../../nowshop/app/views/carrier_setup/_snippet.html.erb" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382080588845" ignored="false" />
-    <file path="$PROJECT_DIR$/../../nowshop/app/assets/javascripts/shop/collections/categories.coffee" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382080588845" ignored="false" />
+    <file path="$PROJECT_DIR$/../../nowshop/app/assets/javascripts/shop/collections/categories.coffee" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382100061746" ignored="false" />
     <file path="$PROJECT_DIR$/../../nowshop/app/controllers/welcome_controller.rb" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382080588845" ignored="false" />
     <file path="$PROJECT_DIR$/../../nowshop/app/controllers/demo/shop_controller.rb" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382080588845" ignored="false" />
     <file path="$PROJECT_DIR$/../../nowshop/app/controllers/live/shop_controller.rb" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382080588845" ignored="false" />
-    <file path="$PROJECT_DIR$/../../nowshop/app/assets/templates/shop/container.mustache" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382080588845" ignored="false" />
+    <file path="$PROJECT_DIR$/../../nowshop/app/assets/templates/shop/container.mustache" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382100061746" ignored="false" />
     <file path="$PROJECT_DIR$/../../nowshop/spec/payment/pensio_spec.rb" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382080588845" ignored="false" />
-    <file path="/rss.css.scss" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382098465965" ignored="false" />
-    <file path="/rssinfo.coffee" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382095996023" ignored="false" />
+    <file path="/rss.css.scss" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382099458797" ignored="false" />
+    <file path="/rssinfo.coffee" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382100253569" ignored="false" />
     <file path="/rssinfo_collection.coffee" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382095593017" ignored="false" />
     <file path="/rssinfo_model.coffee" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382095754260" ignored="false" />
+    <file path="$PROJECT_DIR$/../../nowshop/app/assets/stylesheets/admin_profiles.css.scss" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382100061746" ignored="false" />
+    <file path="$PROJECT_DIR$/../../nowshop/app/views/admin/carriers/new.html.erb" changelist="2e0db2c7-03ba-47ad-95e8-3c9e0b9d3721" time="1382100061746" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,19 +88,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/site/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="48" selection-start="846" selection-end="846" vertical-scroll-proportion="0.1464891">
+            <state line="25" column="28" selection-start="805" selection-end="819" vertical-scroll-proportion="-13.791667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rssinfo.coffee" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="rssinfo.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/site/views/rssinfo.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="69" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+            <state line="16" column="17" selection-start="305" selection-end="305" vertical-scroll-proportion="0.28235295">
               <folding />
             </state>
           </provider>
@@ -107,7 +109,7 @@
       <file leaf-file-name="rss_view.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/site/views/rss_view.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="60" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
+            <state line="10" column="40" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,7 +118,7 @@
       <file leaf-file-name="main_router.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/site/routes/main_router.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="66" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
+            <state line="16" column="53" selection-start="333" selection-end="349" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,7 +127,7 @@
       <file leaf-file-name="rss_collection.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/site/collections/rss_collection.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="39" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
+            <state line="12" column="52" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,7 +136,7 @@
       <file leaf-file-name="rss.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/rss.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="43" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
+            <state line="65" column="50" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,12 +162,12 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/site/collections/rssinfo_collection.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/site/models/rssinfo_model.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/site/views/rssinfo.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/site/collections/rss_collection.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/site/routes/main_router.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/site/views/rss_view.coffee" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/rss.css.scss" />
         <option value="$PROJECT_DIR$/app/views/site/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/site/collections/rss_collection.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/site/views/rssinfo.coffee" />
       </list>
     </option>
   </component>
@@ -201,6 +203,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
@@ -490,7 +493,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -759,7 +761,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25674218" sideWeight="0.6708428" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25943905" sideWeight="0.6708428" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -844,9 +846,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="97" selection-end="97" vertical-scroll-proportion="0.24705882">
-          <folding />
-        </state>
+        <state line="14" column="30" selection-start="97" selection-end="97" vertical-scroll-proportion="0.24705882" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
@@ -861,9 +861,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="29" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="29" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/site/models/rssinfo_model.coffee">
@@ -887,44 +885,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/site/routes/main_router.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="66" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/init_app.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="29" selection-start="67" selection-end="67" vertical-scroll-proportion="0.01764706">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/site/views/rssinfo.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="69" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/site/collections/rss_collection.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="39" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/site/views/rss_view.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="60" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/rss.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="43" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -938,7 +901,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/site/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="48" selection-start="846" selection-end="846" vertical-scroll-proportion="0.1464891">
+        <state line="25" column="28" selection-start="805" selection-end="819" vertical-scroll-proportion="-13.791667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/rss.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="50" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/site/routes/main_router.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="53" selection-start="333" selection-end="349" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/site/collections/rss_collection.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="52" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/site/views/rss_view.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="40" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/site/views/rssinfo.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="17" selection-start="305" selection-end="305" vertical-scroll-proportion="0.28235295">
           <folding />
         </state>
       </provider>

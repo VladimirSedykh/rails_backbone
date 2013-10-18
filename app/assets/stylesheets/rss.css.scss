@@ -1,5 +1,9 @@
 body {
   overflow-y: scroll;
+
+  a, button {
+    outline: none;
+  }
 }
 
 .rss-info {
@@ -76,6 +80,10 @@ body {
 
     a {
       text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }

@@ -9,7 +9,7 @@ App.Collections.RssCollection = Backbone.Collection.extend
 
   parse: (response) ->
     @rssInfoModel = new App.Models.RssInfoModel(response.rss.channel)
-    new App.Views.RssInfoView(model: @rssInfoModel)
+    new App.Views.RssInfoView(model: @rssInfoModel, collection: @)
 
     _.map(response.rss.channel.item, (rss, id)->
       rss['id'] = id+1
