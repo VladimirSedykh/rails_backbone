@@ -10,18 +10,21 @@ App.Routers.MainRouter = Backbone.Router.extend
     'rss/index' : 'rssIndex'
     'rss/:id'   : 'rssNode'
 
-  rssIndex: ->
-    rss = @rss
-    rss.fetch({
-      success : ->
-    })
-
-  rssNode: (id)->
-    @rssFeed.showOne(@rss.get(id).attributes)
-
   _initCollections: ->
     @rss = new App.Collections.RssCollection()
 
   _initViews: ->
     @rssFeed = new App.Views.RssView(collection: @rss)
+
+  rssIndex: ->
+    if @rss.length > 0
+      @rssFeed.render(@rss)
+    else
+      @rss.fetch()
+
+  rssNode: (id)->
+    if @rss.length > 0
+      @rssFeed.showNode(@rss.get(id).attributes)
+    else
+      @.navigate("/rss/index", true)
 

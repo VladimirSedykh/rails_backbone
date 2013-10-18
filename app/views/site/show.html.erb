@@ -5,26 +5,65 @@
 </div>
 <div class="right" id="right">
 
-  <ul id="rss-feed"></ul>
+  <div id="rss-info" class="rss-info">
+  </div>
+  <ul id="rss-feed" class="rss-feed"></ul>
+
 
 </div>
 <!--<canvas id="custom" width="500" height="500"></canvas>-->
 
+<script type="text/html" id='rssInfoTemplate'>
+
+  <div class="img">
+    <img src="<%%= rssInfo.image.url %>" alt=""/>
+  </div>
+  <a class="title" href="<%%= rssInfo.link %>"><%%= rssInfo.title %></a>
+  <br> <br>
+  <div class="source"><%%= rssInfo.copyright %></div>
+  <div class="source"><%%= rssInfo.description %></div>
+  <button id="js-rss-list" class="rss-list-btn"><a href="/#/rss/index">Back to rss list</a></button>
+
+</script>
 
 <script type="text/html" id='rssTemplate'>
 
   <li class="rss" id="<%%= rssData.id %>">
     <%% if(rssData.content) { %>
     <div class="img">
-      <img src="<%%= rssData.content.url %>" height="5" width="<%%= rssData.content.width %>"/>
+      <img src="<%%= rssData.content.url %>" height="<%%= rssData.content.height %>" width="<%%= rssData.content.width %>"/>
     </div>
     <%% } %>
-    <a class="title" href="/#/rss/<%%= rssData.id %>"><%%= rssData.title %></a>
-    <div class="description"><%%= rssData.description %></div>
-    <div class="pub-date"><%%= rssData.pubDate %></div>
-    <%% if(rssData.source) { %>
-      <div class="source"><%%= rssData.source %></div>
-    <%% } %>
+    <div class="side">
+      <a class="title" href="/#/rss/<%%= rssData.id %>"><%%= rssData.title %></a>
+      <div class="pub-date"><%%= rssData.pubDate %></div>
+      <%% if(rssData.source) { %>
+        <div class="source"><%%= rssData.source %></div>
+      <%% } %>
+    </div>
+  </li>
+
+</script>
+
+<script type="text/html" id='rssTemplateNode'>
+
+  <li class="rss" id="<%%= rssData.id %>">
+    <div class="wrapper">
+      <%% if(rssData.content) { %>
+      <div class="img">
+        <img src="<%%= rssData.content.url %>" height="<%%= rssData.content.height %>" width="<%%= rssData.content.width %>"/>
+      </div>
+      <%% } %>
+      <div class="side">
+        <a class="title" href="<%%= rssData.link %>"><%%= rssData.title %></a>
+        <p>text here</p>
+        <div class="pub-date"><%%= rssData.pubDate %></div>
+        <%% if(rssData.source) { %>
+        <div class="source"><%%= rssData.source %></div>
+        <%% } %>
+      </div>
+    </div>
+    <button><a href="<%%= rssData.link %>">Original article</a></button>
   </li>
 
 </script>

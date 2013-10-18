@@ -1,6 +1,7 @@
 App.Views.RssView = Backbone.View.extend
 
   template: _.template($('#rssTemplate').html())
+  templateNode: _.template($('#rssTemplateNode').html())
 
   el: '#rss-feed'
 
@@ -10,21 +11,22 @@ App.Views.RssView = Backbone.View.extend
     @collection.on "add", @addOne, this
     @collection.on "reset", @render, this
 
-  render: ->
+  render: ()->
+    $('#js-rss-list').hide()
     _this = @
-
+    $(@$el).html('') # clear container before render data
 
     _.map @collection.models, (rss)->
-      _this.addOne(rss)
+      _this.addOne(rss.attributes)
 
-  addOne: (rss)->
-    console.log 'render rss view'
-
-    rssData = rss.attributes
+  addOne: (rssData)->
     $(@$el).append(@template({rssData}))
 
+  showOne: (rssData)->
+    $(@$el).html(@template({rssData}))
 
-  showOne: (rssNode)->
-    $(@$el).html(@template({rssNode}))
+  showNode: (rssData)->
+    $('#js-rss-list').fadeIn()
+    $(@$el).html(@templateNode({rssData}))
 
 
